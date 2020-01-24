@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "title": "Software developer",
+      "company": "AkerSolutions",
+      "thumbnailImage": "h4s-feed.jpg",
+      "image1": null,
+      "image2": null,
+      "image3": null,
+      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "akersolutions"
+    },
+    {
+      "title": "Frontend developer",
+      "company": "IBM",
+      "thumbnailImage": "h4s-feed.jpg",
+      "image1": null,
+      "image2": null,
+      "image3": null,
+      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "ibm-summer-internship"
+    },
+    {
+      "title": "Bachelor Thesis",
+      "company": "IBM",
+      "thumbnailImage": "h4s-feed.jpg",
+      "image1": null,
+      "image2": null,
+      "image3": null,
+      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "ibm-bachelor-thesis"
+    },
+    {
+      "title": "Marketing intern",
+      "company": "IBM",
+      "thumbnailImage": "h4s-feed.jpg",
+      "image1": null,
+      "image2": null,
+      "image3": null,
+      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "ibm-marketing"
+    },
+    {
+      "title": "Reklamkampanj",
+      "company": "Cabonline",
+      "thumbnailImage": "h4s-feed.jpg",
+      "image1": null,
+      "image2": null,
+      "image3": null,
+      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "jip"
+    },
+    {
+      "title": "ChallengeGov 2019",
+      "company": "Tillväxtverket",
+      "thumbnailImage": "h4s-feed.jpg",
+      "image1": null,
+      "image2": null,
+      "image3": null,
+      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "vex"
+    }
+  ]
+}
