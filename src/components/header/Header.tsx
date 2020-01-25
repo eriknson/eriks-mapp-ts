@@ -16,17 +16,17 @@ class Header extends Component {
           <p>
             Hej och välkommen. <br />
             <strong>
-              Jag är en Civilingenjörsstudent vid Uppsala universitet.
+              Jag är en civilingenjörsstudent vid Uppsala universitet.
             </strong>
           </p>
           <p>
-            Här finns några saker jag gjort de senaste åren. Från t.ex.
-            sommarjobb, kurser i skolan och andra sammanhang. Ifall du undrar
-            något, skicka jättegärna{' '}
+            Här finns några saker jag gjort de senaste åren. Från till exempel
+            sommarjobb, kurser i skolan eller andra sammanhang. Skicka
+            jättegärna{' '}
             <a href='mailto:eriks@mail.se'>
               <u>ett mail</u>
-            </a>
-            . Enjoy!
+            </a>{' '}
+            om du undrar något. Enjoy!
           </p>
         </div>
       </div>
