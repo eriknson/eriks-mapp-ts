@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <div className='header'>
         <h1>
-          Stor svart text <br />
+          Stor svart rubrik <br />
           på vit bakgrund
         </h1>
         <h2>
