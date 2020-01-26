@@ -1,4 +1,5 @@
 {
   "short_name": "Eriks mapp",
-  "name": "En mapphemsida av Erik Nilsson"
+  "name": "En mapphemsida av Erik Nilsson",
+  "start_url": "./index.html"
 }
