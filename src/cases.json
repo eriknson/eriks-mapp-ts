@@ -1,18 +1,10 @@
 {
   "items": [
     {
-      "title": "(Den här sidan)",
-      "company": "Eriks mapp",
-      "thumbnailImage": "h4s-feed.jpg",
-      "introDescription1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "introDescription2": "Ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "url": "akersolutions"
-    },
-    {
       "title": "Frontend developer",
       "company": "IBM",
       "thumbnailImage": "metrolive-feed.jpg",
-      "introDescription1": "Sommarjobbare i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter i Slakthusområdet och använde realtidsdata från 30 sensorer. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
+      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter i Slakthusområdet och använde realtidsdata från 30 sensorer. I området finns Globen, Annexet, Tele2 Arena samt Hovet. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
       "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
       "url": "ibm-summer-internship"
     },
@@ -20,7 +12,7 @@
       "title": "Bachelor Thesis",
       "company": "IBM",
       "thumbnailImage": "vasaloppet-feed.jpg",
-      "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och deras kund, Vasaloppet. Vi blev jätteglada och började spåna idéer på vad vi skulle göra. Ganska fort upptäckte vi att de har massor med (oanvänd) data – resultatdata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922. Så vi landade i att utnyttja denna för att göra något kul till deltagarna!",
+      "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och en av deras kunder, Vasaloppet. Vi blev jätteglada och började spåna idéer. Ganska fort upptäckte vi att de hade massor med (oanvänd) data. Resultatdata, metadata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922. Så vi landade i att utnyttja den som utgångspunkt för att göra något kul!",
       "introDescription2": "Vi tog fram lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
       "url": "ibm-bachelor-thesis"
     },
@@ -47,6 +39,14 @@
       "introDescription1": "Tillväxtverket anordnade en tävling för att ta fram lösningar till några av de utmaningar Sveriges småföretagare står inför. Tillsammans med mina kompisar, Jonathan & Oscar, tog vi oss an att försöka sänka tröskeln till upphandlingsprocessen. En process som idag upplevs som komplicerad, tidskrävande och riskfylld av majoriteten små- och medelstora företag.",
       "introDescription2": "Vi skapade en prototyp till en matchmaking-app, VEX, som tar fram de mest relevanta utlysningarna och upphandlingarna för användarens verksamhet. Dessa möjligheter presenteras sedan översiktligt i ett intuitivt gränssnitt för att på ett så tydligt sätt som möjligt ge företagare en överblick över de chanser som passar just dem. Det ska vara glasklart, inspirerande och inbjudande att utnyttja sina möjligheter som företagare.",
       "url": "vex"
+    },
+    {
+      "title": "Slask",
+      "company": "Placeholder",
+      "thumbnailImage": "h4s-feed.jpg",
+      "introDescription1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "introDescription2": "Ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "akersolutions"
     }
   ]
 }
