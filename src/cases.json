@@ -1,14 +1,6 @@
 {
   "items": [
     {
-      "title": "Frontend developer",
-      "company": "IBM",
-      "thumbnailImage": "metrolive-feed.jpg",
-      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter, sportevenemang och mässor i Slakthusområdet genom realtidsdata från 30 sensorer. I området finns fyra arenor (Globen, Annexet, Tele2 Arena och Hovet) och tre tunnelbanestationer inom några kilometers radie. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
-      "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
-      "url": "ibm-summer-internship"
-    },
-    {
       "title": "Bachelor Thesis",
       "company": "IBM",
       "thumbnailImage": "vasaloppet-feed.jpg",
@@ -23,6 +15,14 @@
       "introDescription1": "Mellan 2017-2019 jobbade jag 10h per vecka tillsammans med IBM:s marketing-team. Främst genom planering och produktion av olika digitala kampanjer.",
       "introDescription2": "Här (nedan) finns några exempel på filmprojekt som jag varit med och skapat.",
       "url": "ibm-marketing"
+    },
+    {
+      "title": "Frontend developer",
+      "company": "IBM",
+      "thumbnailImage": "metrolive-feed.jpg",
+      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter, sportevenemang och mässor i Slakthusområdet genom realtidsdata från 30 sensorer. I området finns fyra arenor (Globen, Annexet, Tele2 Arena och Hovet) och tre tunnelbanestationer inom några kilometers radie. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
+      "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
+      "url": "ibm-summer-internship"
     },
     {
       "title": "Reklamkampanj",
