@@ -1,6 +1,6 @@
 {
   "name": "eriks-mapp-ts",
-  "homepage": "https://eriksmapp.com",
+  "homepage": "eriksmapp.com",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
