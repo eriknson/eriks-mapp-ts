@@ -9,8 +9,8 @@ class Header extends Component {
           på vit bakgrund
         </h1>
         <h2>
-          En mapphemsida av Erik Nilsson. <br /> Kalkylerad till minst 16,3
-          miljarder impressions.
+          En mapphemsida av Erik Nilsson. <br />
+          Kalkylerad till "minst 16,3 miljarder impressions".
         </h2>
         <div className='header-description'>
           <p>
@@ -20,9 +20,8 @@ class Header extends Component {
             </strong>
           </p>
           <p>
-            Här finns några saker jag gjort de senaste åren. Från till exempel
-            sommarjobb, kurser i skolan eller andra sammanhang. Skicka
-            jättegärna{' '}
+            Här finns några saker jag gjort de senaste åren. Från sommarjobb,
+            kurser i skolan eller andra sammanhang. Skicka jättegärna{' '}
             <a href='mailto:eriks@mail.se'>
               <u>ett mail</u>
             </a>{' '}

@@ -1,63 +1,51 @@
 {
   "items": [
     {
-      "title": "Software developer",
-      "company": "AkerSolutions",
+      "title": "(Den här sidan)",
+      "company": "Eriks mapp",
       "thumbnailImage": "h4s-feed.jpg",
-      "image1": null,
-      "image2": null,
-      "image3": null,
-      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "introDescription1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "introDescription2": "Ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "url": "akersolutions"
     },
     {
       "title": "Frontend developer",
       "company": "IBM",
-      "thumbnailImage": "h4s-feed.jpg",
-      "image1": null,
-      "image2": null,
-      "image3": null,
-      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "thumbnailImage": "metrolive-feed.jpg",
+      "introDescription1": "Sommarjobbare i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter i Slakthusområdet och använde realtidsdata från 30 sensorer. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
+      "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
       "url": "ibm-summer-internship"
     },
     {
       "title": "Bachelor Thesis",
       "company": "IBM",
-      "thumbnailImage": "h4s-feed.jpg",
-      "image1": null,
-      "image2": null,
-      "image3": null,
-      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "thumbnailImage": "vasaloppet-feed.jpg",
+      "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och deras kund, Vasaloppet. Vi blev jätteglada och började spåna idéer på vad vi skulle göra. Ganska fort upptäckte vi att de har massor med (oanvänd) data – resultatdata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922. Så vi landade i att utnyttja denna för att göra något kul till deltagarna!",
+      "introDescription2": "Vi tog fram lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
       "url": "ibm-bachelor-thesis"
     },
     {
       "title": "Marketing intern",
       "company": "IBM",
       "thumbnailImage": "ibm-feed.svg",
-      "image1": null,
-      "image2": null,
-      "image3": null,
-      "introDescription": "Jobbade med employer branding tillsammans med IBM:s globala marknadsföringsteam. Främst genom planering, produktion och utvärdering av videokampanjer – både självständigt och tillsammans med externa byråer. Här (nedan) finns några exempel på projekt som jag varit med och skapat.",
+      "introDescription1": "Mellan 2017-2019 jobbade jag 10h per vecka tillsammans med IBM:s marketing-team. Främst genom planering och produktion av olika digitala kampanjer.",
+      "introDescription2": "Här (nedan) finns några exempel på filmprojekt som jag varit med och skapat.",
       "url": "ibm-marketing"
     },
     {
       "title": "Reklamkampanj",
       "company": "Cabonline",
       "thumbnailImage": "jip-feed.jpg",
-      "image1": null,
-      "image2": null,
-      "image3": null,
-      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "introDescription1": "Jobbade sommaren 2019 med att ta fram innehåll till Cabonline och deras lansering av ett nytt, yngre, varumärke i Norge. De kallade varumärket / tjänsten för 'jip' och erbjöd taxi med fast pris inom stan.",
+      "introDescription2": "Vi landade bl.a. i en film som anspelade på (dåvarande) Game of Thrones-hype och en film som klargjorde att denna taxitjänst svarar snabbare än ens crush. Veldig morsomt prosjekt!",
       "url": "jip"
     },
     {
-      "title": "ChallengeGov 2019",
-      "company": "Tillväxtverket",
-      "thumbnailImage": "h4s-feed.jpg",
-      "image1": null,
-      "image2": null,
-      "image3": null,
-      "introDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "title": "VEX",
+      "company": "Challengegov 2019",
+      "thumbnailImage": "vex-feed.jpg",
+      "introDescription1": "Tillväxtverket anordnade en tävling för att ta fram lösningar till några av de utmaningar Sveriges småföretagare står inför. Tillsammans med mina kompisar, Jonathan & Oscar, tog vi oss an att försöka sänka tröskeln till upphandlingsprocessen. En process som idag upplevs som komplicerad, tidskrävande och riskfylld av majoriteten små- och medelstora företag.",
+      "introDescription2": "Vi skapade en prototyp till en matchmaking-app, VEX, som tar fram de mest relevanta utlysningarna och upphandlingarna för användarens verksamhet. Dessa möjligheter presenteras sedan översiktligt i ett intuitivt gränssnitt för att på ett så tydligt sätt som möjligt ge företagare en överblick över de chanser som passar just dem. Det ska vara glasklart, inspirerande och inbjudande att utnyttja sina möjligheter som företagare.",
       "url": "vex"
     }
   ]
