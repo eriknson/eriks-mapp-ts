@@ -4,7 +4,7 @@
       "title": "Frontend developer",
       "company": "IBM",
       "thumbnailImage": "metrolive-feed.jpg",
-      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter i Slakthusområdet och använde realtidsdata från 30 sensorer. I området finns Globen, Annexet, Tele2 Arena samt Hovet. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
+      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter, sportevenemang och mässor i Slakthusområdet genom realtidsdata från 30 sensorer. I området finns fyra arenor (Globen, Annexet, Tele2 Arena och Hovet) och tre tunnelbanestationer inom några kilometers radie. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
       "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
       "url": "ibm-summer-internship"
     },
@@ -12,8 +12,8 @@
       "title": "Bachelor Thesis",
       "company": "IBM",
       "thumbnailImage": "vasaloppet-feed.jpg",
-      "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och en av deras kunder, Vasaloppet. Vi blev jätteglada och började spåna idéer. Ganska fort upptäckte vi att de hade massor med (oanvänd) data. Resultatdata, metadata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922. Så vi landade i att utnyttja den som utgångspunkt för att göra något kul!",
-      "introDescription2": "Vi tog fram lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
+      "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och en av deras kunder, Vasaloppet. Vi blev jätteglada, började spåna idéer och upptäckte ganska fort att de hade massor med (oanvänd) data vi borde göra något av. Resultatdata, metadata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922.",
+      "introDescription2": "Så vi utvecklade lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
       "url": "ibm-bachelor-thesis"
     },
     {
@@ -36,8 +36,8 @@
       "title": "VEX",
       "company": "Challengegov 2019",
       "thumbnailImage": "vex-feed.jpg",
-      "introDescription1": "Tillväxtverket anordnade en tävling för att ta fram lösningar till några av de utmaningar Sveriges småföretagare står inför. Tillsammans med mina kompisar, Jonathan & Oscar, tog vi oss an att försöka sänka tröskeln till upphandlingsprocessen. En process som idag upplevs som komplicerad, tidskrävande och riskfylld av majoriteten små- och medelstora företag.",
-      "introDescription2": "Vi skapade en prototyp till en matchmaking-app, VEX, som tar fram de mest relevanta utlysningarna och upphandlingarna för användarens verksamhet. Dessa möjligheter presenteras sedan översiktligt i ett intuitivt gränssnitt för att på ett så tydligt sätt som möjligt ge företagare en överblick över de chanser som passar just dem. Det ska vara glasklart, inspirerande och inbjudande att utnyttja sina möjligheter som företagare.",
+      "introDescription1": "Tillväxtverket anordnade en tävling för att ta fram lösningar till de utmaningar som Sveriges småföretagare står inför. Tillsammans med mina kompisar, Jonathan & Oscar, tog vi oss an att försöka sänka tröskeln till upphandlingsprocessen. En process som idag upplevs komplicerad, tidskrävande och riskfylld av många små- och medelstora företag.",
+      "introDescription2": "Vi skapade en prototyp till en matchmaking-app, 'VEX', som tar fram de mest relevanta utlysningarna och upphandlingarna för användarens specifika verksamhet. Dessa möjligheter presenteras sedan översiktligt i ett intuitivt gränssnitt för att ge företagare en överblick över de chanser som passar just dem. Det ska vara glasklart, inspirerande och inbjudande att utnyttja sina möjligheter som företagare.",
       "url": "vex"
     },
     {
