@@ -15,9 +15,9 @@ export default class Case extends Component<CaseProps> {
         <ScrollToTop />
 
         <div className='case-back-button'>
-          <Link className='case-back-button-title' to='/'>
+          <a className='case-back-button-title' href='javascript:history.back()'>
             <Emoji symbol='👈🏼' label='back' />
-          </Link>
+          </a>
         </div>
 
         <h1>{this.props.metadata.company}</h1>
