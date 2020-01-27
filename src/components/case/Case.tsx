@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 import ScrollToTop from '../misc/scroll/ScrollToTop';
 import Emoji from '../misc/emoji/Emoji';
@@ -118,7 +118,7 @@ const CaseSpecificVEX = () => {
         <strong>
           Se slides på{' '}
           <u>
-            <a href='https://vexapp.tech/#/0' target='_blank'>
+            <a href='https://vexapp.tech/#/0' target='_blank' rel='noopener noreferrer'>
               vexapp.tech
             </a>
           </u>
