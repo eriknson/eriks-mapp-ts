@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Emoji from '../misc/emoji/Emoji';
 
 class Footer extends Component {
   render() {
@@ -17,7 +16,7 @@ class Footer extends Component {
           </div>
           <div className='footer-container-right'>
             <p>
-              Made with <Emoji symbol='♥️' label='love' /> and React. <br />
+              Made with ♥️ and React. <br />
               GitHub repository finns{' '}
               <a href='https://github.com/eriknson/eriks-mapp-ts' target='_blank' rel='noopener noreferrer'>
                 <u>här</u>
