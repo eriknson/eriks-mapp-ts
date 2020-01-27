@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
+import Emoji from '../misc/emoji/Emoji';
 
 class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        <h2>Footer placeholder</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud.
-        </p>
+        <div className='footer-container'>
+          <div className='footer-container-left'>
+            <p>
+              <a href='mailto:eriks@mail.se'>
+                <u>eriks@mail.se</u>
+              </a>{' '}
+              <br />
+              +46 (0) 738046047
+            </p>
+          </div>
+          <div className='footer-container-right'>
+            <p>
+              Made with <Emoji symbol='♥️' label='love' /> and React. <br />
+              GitHub repository finns{' '}
+              <a href='https://github.com/eriknson/eriks-mapp-ts' target='_blank'>
+                <u>här</u>
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

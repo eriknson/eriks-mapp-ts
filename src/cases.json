@@ -20,7 +20,7 @@
       "title": "Frontend developer",
       "company": "IBM",
       "thumbnailImage": "metrolive-feed.jpg",
-      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter, sportevenemang och mässor i Slakthusområdet genom realtidsdata från 30 sensorer. I området finns fyra arenor (Globen, Annexet, Tele2 Arena och Hovet) och tre tunnelbanestationer inom några kilometers radie. Vårt uppdrag var att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
+      "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter, sportevenemang och mässor i Slakthusområdet. Genom realtidsdata från 30 sensoret kring områdets fyra arenor (Globen, Annexet, Tele2 Arena och Hovet) och tre tunnelbanestationer (Globen, Gullmars, Blåsut) var vårt uppdrag att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
       "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
       "url": "ibm-summer-internship"
     },

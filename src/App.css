@@ -78,6 +78,19 @@
   width: 100%;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.footer-container-right {
+  text-align: right;
+}
+
 @media (max-width: 349px) {
   .App p {
     font-size: 0.5em;
