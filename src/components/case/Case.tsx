@@ -90,13 +90,23 @@ const CaseSpecificCabonline = () => {
 
 const CaseSpecificVasaloppet = () => {
   return (
-    <div className='case-image'>
-      <img
-        className='case-image-img'
-        key='vasaloppet'
-        alt='img'
-        src={require('../../assets/vasaloppet-thumbnail-project.jpg')}
-      />
+    <div className='case-vasaloppet'>
+      <div className='case-image'>
+        <img
+          className='case-image-img'
+          key='vasaloppet'
+          alt='img'
+          src={require('../../assets/vasaloppet-thumbnail-project.jpg')}
+        />
+      </div>
+      <div className='case-image'>
+        <img
+          className='case-image-img'
+          key='vasaloppet'
+          alt='img'
+          src={require('../../assets/vasaloppet-techstack.jpg')}
+        />
+      </div>
     </div>
   );
 };
