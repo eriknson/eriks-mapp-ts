@@ -1,3 +1,7 @@
+# eriksmapp.com
+
+Made with ♥️ and React
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
