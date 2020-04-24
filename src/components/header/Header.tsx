@@ -15,13 +15,11 @@ class Header extends Component {
         <div className='header-description'>
           <p>
             Hej och välkommen. <br />
-            <strong>
-              Jag är en civilingenjörsstudent vid Uppsala universitet.
-            </strong>
+            <strong>Jag är en civilingenjörsstudent vid Uppsala universitet.</strong>
           </p>
           <p>
-            Här finns några saker jag gjort de senaste åren. Från sommarjobb,
-            kurser i skolan eller andra sammanhang. Skicka jättegärna{' '}
+            Här finns några saker jag gjort de senaste åren. Från sommarjobb, kurser i skolan eller andra sammanhang.
+            Skicka jättegärna{' '}
             <a href='mailto:eriks@mail.se'>
               <u>ett mail</u>
             </a>{' '}
