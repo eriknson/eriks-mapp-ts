@@ -1,9 +1,19 @@
 {
   "items": [
     {
+      "title": "Master Thesis",
+      "company": "RISE",
+      "thumbnailImage": "anomali.jpg",
+      "thumbnailVideo": null,
+      "introDescription1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "introDescription2": "Ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "url": "anomali"
+    },
+    {
       "title": "Bachelor Thesis",
       "company": "IBM",
       "thumbnailImage": "vasaloppet-feed.jpg",
+      "thumbnailVideo": null,
       "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och en av deras kunder, Vasaloppet. Vi blev jätteglada, började spåna idéer och upptäckte ganska fort att de hade massor med (oanvänd) data vi borde göra något av. Resultatdata, metadata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922.",
       "introDescription2": "Så vi utvecklade lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
       "url": "ibm-bachelor-thesis"
@@ -12,6 +22,7 @@
       "title": "Marketing intern",
       "company": "IBM",
       "thumbnailImage": "ibm-feed.svg",
+      "thumbnailVideo": null,
       "introDescription1": "Mellan 2017-2019 jobbade jag 10h per vecka tillsammans med IBM:s marketing-team. Främst genom planering och produktion av olika digitala kampanjer.",
       "introDescription2": "Här (nedan) finns några exempel på filmprojekt som jag varit med och skapat.",
       "url": "ibm-marketing"
@@ -20,6 +31,7 @@
       "title": "Frontend developer",
       "company": "IBM",
       "thumbnailImage": "metrolive-feed.jpg",
+      "thumbnailVideo": null,
       "introDescription1": "Sommarjobbade i ett projekt som IBM gjorde till Stockholm Stad. Projektet handlade om att visualisera trafikflöden före / efter konserter, sportevenemang och mässor i Slakthusområdet. Genom realtidsdata från 30 sensoret kring områdets fyra arenor (Globen, Annexet, Tele2 Arena och Hovet) och tre tunnelbanestationer (Globen, Gullmars, Blåsut) var vårt uppdrag att tydliggöra trafikmönster för att ge värdefull insikt till medborgare och beslutsfattare i området.",
       "introDescription2": "Mitt arbete bestod av (1) utforska sätt att visualisera datan, och (2) utveckla frontend-delen till en iOS-app (med React native) tillsammans med en dashboard (NodeJS, React).",
       "url": "ibm-summer-internship"
@@ -28,25 +40,19 @@
       "title": "Reklamkampanj",
       "company": "Cabonline",
       "thumbnailImage": "jip-feed.jpg",
+      "thumbnailVideo": null,
       "introDescription1": "Jobbade sommaren 2019 med att ta fram innehåll till Cabonline och deras lansering av ett nytt, yngre, varumärke i Norge. De kallade varumärket / tjänsten för 'jip' och erbjöd taxi med fast pris inom stan.",
       "introDescription2": "Vi landade bl.a. i en film som anspelade på (dåvarande) Game of Thrones-hype och en film som klargjorde att denna taxitjänst svarar snabbare än ens crush. Veldig morsomt prosjekt!",
       "url": "jip"
     },
     {
-      "title": "VEX",
-      "company": "Challengegov 2019",
+      "title": "Shooting star",
+      "company": "Nordic Digital PR Awards",
       "thumbnailImage": "vex-feed.jpg",
+      "thumbnailVideo": null,
       "introDescription1": "Tillväxtverket anordnade en tävling för att ta fram lösningar till de utmaningar som Sveriges småföretagare står inför. Tillsammans med mina kompisar, Jonathan & Oscar, tog vi oss an att försöka sänka tröskeln till upphandlingsprocessen. En process som idag upplevs komplicerad, tidskrävande och riskfylld av många små- och medelstora företag.",
       "introDescription2": "Vi skapade en prototyp till en matchmaking-app, 'VEX', som tar fram de mest relevanta utlysningarna och upphandlingarna för användarens specifika verksamhet. Dessa möjligheter presenteras sedan översiktligt i ett intuitivt gränssnitt för att ge företagare en överblick över de chanser som passar just dem. Det ska vara glasklart, inspirerande och inbjudande att utnyttja sina möjligheter som företagare.",
       "url": "vex"
-    },
-    {
-      "title": "Slask",
-      "company": "Placeholder",
-      "thumbnailImage": "h4s-feed.jpg",
-      "introDescription1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "introDescription2": "Ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "url": "akersolutions"
     }
   ]
 }

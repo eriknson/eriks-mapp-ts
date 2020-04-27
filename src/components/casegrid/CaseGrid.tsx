@@ -11,15 +11,12 @@ class CaseGrid extends Component {
     return (
       <div className='case-grid'>
         {this.items.map((caseObject, i) => (
-          <Link
-            key={i}
-            to={'/' + caseObject.url}
-            className='app-navigation-item'
-          >
+          <Link key={i} to={'/' + caseObject.url} className='app-navigation-item'>
             <CaseThumbnail
               itemTitle={caseObject.title}
               itemCompany={caseObject.company}
               thumbnailImage={caseObject.thumbnailImage}
+              thumbnailVideo={caseObject.thumbnailVideo}
               itemURL={caseObject.url}
             />
           </Link>

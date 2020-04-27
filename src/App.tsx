@@ -22,7 +22,7 @@ const App: React.FC = () => {
               key={i}
               exact
               path={'/' + caseObject.url}
-              render={props => <Case {...props} metadata={caseObject} />}
+              render={(props) => <Case {...props} metadata={caseObject} />}
             />
           ))}
           <Footer></Footer>

@@ -9,15 +9,19 @@ type CaseProps = {
 };
 
 export default class Case extends Component<CaseProps> {
+  _goBack(): ((event: React.MouseEvent<HTMLInputElement>) => void) | any {
+    window.history.back();
+  }
+
   render() {
     return (
       <div className='case'>
         <ScrollToTop />
 
         <div className='case-back-button'>
-          <a className='case-back-button-title' href='javascript:history.back()'>
+          <button className='case-back-button-title' onClick={this._goBack}>
             <Emoji symbol='👈🏼' label='back' />
-          </a>
+          </button>
         </div>
 
         <h1>{this.props.metadata.company}</h1>
