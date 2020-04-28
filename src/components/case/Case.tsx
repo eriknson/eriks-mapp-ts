@@ -26,11 +26,12 @@ export default class Case extends Component<CaseProps> {
 
         <h1>{this.props.metadata.company}</h1>
         <h2>{this.props.metadata.title}</h2>
-        <div className='case-intro-description'>
+        <div className='case-p'>
           <p>{this.props.metadata.introDescription1}</p>
           <p>{this.props.metadata.introDescription2}</p>
         </div>
 
+        <Route path='/anomali' component={CaseSpecificAnomali} />
         <Route path='/ibm-marketing' component={CaseSpecificIBM} />
         <Route path='/jip' component={CaseSpecificCabonline} />
         <Route path='/ibm-bachelor-thesis' component={CaseSpecificVasaloppet} />
@@ -40,6 +41,64 @@ export default class Case extends Component<CaseProps> {
     );
   }
 }
+
+const CaseSpecificAnomali = () => {
+  return (
+    <div>
+      <div className='case-image'>
+        <img
+          className='case-image-img'
+          key='axel-whiteboard'
+          alt='img'
+          src={require('../../assets/axel-whiteboard.jpg')}
+        />
+      </div>
+      <div className='case-p'>
+        <p>
+          Vi gillade dem och pitchade att bygga ett interaktivt analysverktyg som identifierar svagheter i
+          kollektivtrafiknät utifrån ett avvikelseperspektiv. Baserat på algoritmer från Graph Mining och visualiserat
+          via ett gränssnitt byggt i React. De gillade förslaget och resten är historia!
+        </p>
+      </div>
+      <div className='case-image'>
+        <img className='case-image-img' key='vasaloppet' alt='img' src={require('../../assets/anomali_ss.png')} />
+      </div>
+      <div className='case-p'>
+        <p>
+          Under 20 veckor har vi haft äran att utveckla en data pipeline som extraherar, aggregerar och analyserar 3,5M
+          datapunkter från Uppsala (UL).{' '}
+        </p>
+        <p>
+          I första hand är resultatet ett objektivt index som beskriver hur troligt varje nod-par (edge) i nätverket är
+          att avvika från tidtabell. För det andra, identifierar vi de mest utsatta förlängningarna / sträckningarna i
+          nätverket, och bedömer dem med hjälp av en algoritm som heter MINCUT-MAXFLOW.
+        </p>
+      </div>
+      <div className='case-image'>
+        <img className='case-image-img' key='vasaloppet' alt='img' src={require('../../assets/anomali_ss.png')} />
+      </div>
+      <div className='case-p'>
+        <p>
+          Här nedan kan ni (snart) se vårt försök att visualisera delar av resultatet via en landningssida med
+          tillhörande Mapbox-karta vi gjort till projektet.
+        </p>
+      </div>
+      <div className='case-image'>
+        <p>
+          <strong>
+            Utforska projektet på{' '}
+            <u>
+              <a href='https://eriknson.github.io/anomali/' target='_blank' rel='noopener noreferrer'>
+                https://eriknson.github.io/anomali/
+              </a>
+            </u>
+          </strong>
+          <br />
+        </p>
+      </div>
+    </div>
+  );
+};
 
 const CaseSpecificIBM = () => {
   return (

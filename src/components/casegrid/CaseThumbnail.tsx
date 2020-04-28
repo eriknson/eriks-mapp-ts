@@ -13,7 +13,6 @@ interface CaseThumbnailState {}
 class CaseThumbnail extends Component<CaseThumbnailProps, CaseThumbnailState> {
   _getThumbnailJSX() {
     if (this.props.thumbnailImage != null) {
-      console.log(this.props.thumbnailImage);
       return (
         <img
           key={this.props.itemURL}
