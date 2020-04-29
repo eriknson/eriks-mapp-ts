@@ -55,9 +55,9 @@ const CaseSpecificAnomali = () => {
       </div>
       <div className='case-p'>
         <p>
-          Vi gillade dem och pitchade att bygga ett interaktivt analysverktyg som identifierar svagheter i
-          kollektivtrafiknät utifrån ett avvikelseperspektiv. Baserat på algoritmer från Graph Mining och visualiserat
-          via ett gränssnitt byggt i React. De gillade förslaget och resten är historia!
+          Vi gillade dem och föreslog att bygga ett analysverktyg för att identifiera svagheter i kollektivtrafiknätet,
+          baserat på tidsmässiga avvikelser. Med insikter till trafikplanerare baserade på algoritmer inom Graph Mining
+          och visualiserat genom en webapp gjord i React. De gillade förslaget och resten är historia!
         </p>
       </div>
       <div className='case-image'>
@@ -65,28 +65,35 @@ const CaseSpecificAnomali = () => {
       </div>
       <div className='case-p'>
         <p>
-          Under 20 veckor har vi haft äran att utveckla en data pipeline som extraherar, aggregerar och analyserar 3,5M
-          datapunkter från Uppsala (UL).{' '}
+          Vi utvecklade en data pipeline som extraherar, aggregerar och analyserar 3,5M datapunkter från Uppsala-nätet
+          (UL). För att rengöra, analysera och leverera data till visualiseringen. Vi har haft som prioritet att utforma
+          denna så att man lätt kan byta ut och importera data från andra nät eller tidsintervall också – så länge
+          RAW-datan följer Google's GTFS-standard.
         </p>
         <p>
-          I första hand är resultatet ett objektivt index som beskriver hur troligt varje nod-par (edge) i nätverket är
-          att avvika från tidtabell. För det andra, identifierar vi de mest utsatta förlängningarna / sträckningarna i
-          nätverket, och bedömer dem med hjälp av en algoritm som heter MINCUT-MAXFLOW.
+          Resultatet är dels ett objektivt index som beskriver hur troligt varje nod-par (edge) i nätverket är att
+          avvika från tidtabell. Och dels ett sätt att identifiera och visualisera de mest utsatta förlängningarna /
+          sträckningarna i nätverket, med hjälp av en algoritm som heter MINCUT-MAXFLOW.
         </p>
       </div>
       <div className='case-image'>
-        <img className='case-image-img' key='vasaloppet' alt='img' src={require('../../assets/anomali_ss.png')} />
+        <img className='case-image-img' key='vasaloppet' alt='img' src={require('../../assets/anomali_pman.png')} />
       </div>
       <div className='case-p'>
+        <p>
+          Mitt i projektet tog COVID-19 över Sverige och vårt nya hem blev Google Hangouts. Vi vill verkligen tacka vår
+          ämnesgranskare (Kristiaan Pelckmans) och handledare (Jerry Löfvenhaft) för all feedback under projektets gång!
+        </p>
         <p>
           Här nedan kan ni (snart) se vårt försök att visualisera delar av resultatet via en landningssida med
-          tillhörande Mapbox-karta vi gjort till projektet.
+          tillhörande Mapbox-karta vi gjort till projektet. Notera att projektet inte är helt färdigt ännu och att det
+          d.v.s. är work in progress.
         </p>
       </div>
       <div className='case-image'>
         <p>
           <strong>
-            Utforska projektet på{' '}
+            WIP:{' '}
             <u>
               <a href='https://eriknson.github.io/anomali/' target='_blank' rel='noopener noreferrer'>
                 https://eriknson.github.io/anomali/
