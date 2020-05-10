@@ -5,8 +5,8 @@
       "company": "RISE",
       "thumbnailImage": "anomali.jpg",
       "thumbnailVideo": null,
-      "introDescription1": "Under våren 2020, som en sista del av civilingenjörsutbildningen, fick vi chansen att arbeta heltid med ett projekt ute hos ett företag i 20 veckor. Som ett test på hur, och kanske ifall, det man lärt sig under dessa fem år kan användas “i verkligheten”. En slags trygg brygga till arbetslivet, helt enkelt.",
-      "introDescription2": "Jag, tillsammans med min klasskompis Axel, började leta efter en kontext att göra dette i och kom i kontakt med Sveriges statliga forskningsinstitut, RISE. De introducerade oss till Kollektivtrafikens datalab (Public Transport Data Lab) och undrade ifall vi ville bygga en pilot inom ramen av deras pågående satsning kring tillhandahållandet av historisk mobilitetsdata.",
+      "introDescription1": "Våren 2020 vi chansen att göra vårt examensarbete under 20 veckor. Ett test på hur det man lärt sig under utbildningens fem år kan användas utanför skolans väggar. “En slags trygg brygga till arbetslivet”",
+      "introDescription2": "Jag, tillsammans med min klasskompis Axel, kom i kontakt med Sveriges statliga forskningsinstitut, RISE, och blev introducerade till Kollektivtrafikens datalab. De var intresserade av att bygga ett use-case som inom deras pågående satsning på historisk mobilitetsdata, KoDa (Public Transport Data Lab).",
       "url": "anomali"
     },
     {
@@ -46,8 +46,8 @@
       "url": "jip"
     },
     {
-      "title": "Shooting star",
-      "company": "Nordic Digital PR Awards",
+      "title": "Verksamt Data Challenge",
+      "company": "Tillväxtverket",
       "thumbnailImage": "vex-feed.jpg",
       "thumbnailVideo": null,
       "introDescription1": "Tillväxtverket anordnade en tävling för att ta fram lösningar till de utmaningar som Sveriges småföretagare står inför. Tillsammans med mina kompisar, Jonathan & Oscar, tog vi oss an att försöka sänka tröskeln till upphandlingsprocessen. En process som idag upplevs komplicerad, tidskrävande och riskfylld av många små- och medelstora företag.",

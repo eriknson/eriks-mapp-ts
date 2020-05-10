@@ -67,7 +67,7 @@
 }
 
 .case-react-player {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
@@ -96,6 +96,35 @@
 }
 
 @media (max-width: 349px) {
+  @keyframes slide {
+    from {
+      transform: translateX(-175px);
+    }
+    to {
+      transform: translateX(1000px);
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 175px;
+  }
+
+  .gallery-item {
+    position: absolute;
+    max-width: 175px;
+    max-height: 175px;
+    animation: slide linear infinite;
+  }
+
+  .animated-gallery {
+    height: 175px;
+    margin-bottom: 2em;
+  }
+
   .App p {
     font-size: 0.5em;
     line-height: 1.5em;
@@ -167,6 +196,35 @@
 }
 
 @media (min-width: 350px) and (max-width: 767px) {
+  @keyframes slide {
+    from {
+      transform: translateX(-175px);
+    }
+    to {
+      transform: translateX(1150px);
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 175px;
+  }
+
+  .gallery-item {
+    position: absolute;
+    max-width: 175px;
+    max-height: 175px;
+    animation: slide linear infinite;
+  }
+
+  .animated-gallery {
+    height: 175px;
+    margin-bottom: 3em;
+  }
+
   .App p {
     font-size: 0.75em;
     line-height: 1.5em;
@@ -237,6 +295,35 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  @keyframes slide {
+    from {
+      transform: translateX(-375px);
+    }
+    to {
+      transform: translateX(1750px);
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 275px;
+  }
+
+  .gallery-item {
+    position: absolute;
+    max-width: 275px;
+    max-height: 275px;
+    animation: slide linear infinite;
+  }
+
+  .animated-gallery {
+    height: 275px;
+    margin-bottom: 6em;
+  }
+
   .App p {
     font-size: 1em;
     line-height: 1.5em;
@@ -308,6 +395,35 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1250px) {
+  @keyframes slide {
+    from {
+      transform: translateX(-375px);
+    }
+    to {
+      transform: translateX(1750px);
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 275px;
+  }
+
+  .gallery-item {
+    position: absolute;
+    max-width: 275px;
+    max-height: 275px;
+    animation: slide linear infinite;
+  }
+
+  .animated-gallery {
+    height: 275px;
+    margin-bottom: 6em;
+  }
+
   .App p {
     font-size: 1em;
     line-height: 1.5em;
@@ -379,6 +495,35 @@
 }
 
 @media (min-width: 1251px) {
+  @keyframes slide {
+    from {
+      transform: translateX(-375px);
+    }
+    to {
+      transform: translateX(2350px);
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 275px;
+  }
+
+  .gallery-item {
+    position: absolute;
+    max-width: 275px;
+    max-height: 275px;
+    animation: slide linear infinite;
+  }
+
+  .animated-gallery {
+    height: 275px;
+    margin-bottom: 6em;
+  }
+
   .App p {
     font-size: 1em;
     line-height: 1.5em;
@@ -446,5 +591,36 @@
   .footer {
     border-top: 0.5em solid #212121;
     margin-top: 6em;
+  }
+}
+
+@media (min-width: 2350px) {
+  @keyframes slide {
+    from {
+      transform: translateX(-375px);
+    }
+    to {
+      transform: translateX(4000px);
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 275px;
+  }
+
+  .gallery-item {
+    position: absolute;
+    max-width: 275px;
+    max-height: 275px;
+    animation: slide linear infinite;
+  }
+
+  .animated-gallery {
+    height: 275px;
+    margin-bottom: 6em;
   }
 }

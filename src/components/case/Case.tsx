@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 import ScrollToTop from '../misc/scroll/ScrollToTop';
 import Emoji from '../misc/emoji/Emoji';
+import AnimatedGallery from '../misc/gallery/AnimatedGallery';
 
 type CaseProps = {
   metadata: any;
@@ -30,7 +31,6 @@ export default class Case extends Component<CaseProps> {
           <p>{this.props.metadata.introDescription1}</p>
           <p>{this.props.metadata.introDescription2}</p>
         </div>
-
         <Route path='/anomali' component={CaseSpecificAnomali} />
         <Route path='/ibm-marketing' component={CaseSpecificIBM} />
         <Route path='/jip' component={CaseSpecificCabonline} />
@@ -55,25 +55,29 @@ const CaseSpecificAnomali = () => {
       </div>
       <div className='case-p'>
         <p>
-          Vi gillade dem och föreslog att bygga ett analysverktyg för att identifiera svagheter i kollektivtrafiknätet,
-          baserat på tidsmässiga avvikelser. Med insikter till trafikplanerare baserade på algoritmer inom Graph Mining
-          och visualiserat genom en webapp gjord i React. De gillade förslaget och resten är historia!
+          Vi gillade dem och började skissa på idéer. Till sist föreslog vi att bygga en webbapp som identifierar
+          svagheter i kollektivtrafiknätet. Från ett tidsavikelse-perspektiv och på en nivå som ger insikter till
+          (bl.a.) trafikplanerare och leverantörer. Med hjälp av algoritmer från Graph Mining, och en frontend gjord med
+          React och Mapbox, ska man interaktivt kunna utvärdera nätets prestanda.
         </p>
       </div>
+      <AnimatedGallery />
       <div className='case-image'>
         <img className='case-image-img' key='vasaloppet' alt='img' src={require('../../assets/anomali_ss.png')} />
       </div>
       <div className='case-p'>
         <p>
-          Vi utvecklade en data pipeline som extraherar, aggregerar och analyserar 3,5M datapunkter från Uppsala-nätet
-          (UL). För att rengöra, analysera och leverera data till visualiseringen. Vi har haft som prioritet att utforma
-          denna så att man lätt kan byta ut och importera data från andra nät eller tidsintervall också – så länge
-          RAW-datan följer Google's GTFS-standard.
+          Vi tog fram en data pipeline som extraherar, aggregerar och analyserar 3,5M datapunkter (arrivals) från
+          Uppsalas kollektivtrafiknät, UL.
         </p>
         <p>
-          Resultatet är dels ett objektivt index som beskriver hur troligt varje nod-par (edge) i nätverket är att
-          avvika från tidtabell. Och dels ett sätt att identifiera och visualisera de mest utsatta förlängningarna /
-          sträckningarna i nätverket, med hjälp av en algoritm som heter MINCUT-MAXFLOW.
+          Resultatet är dels (1) ett objektivt index som beskriver hur mycket varje sträckning i ett kollektivtrafiknät
+          avviker från tidtabell i en grafkontext. Och dels (2) en metod för att identifiera, och visualisera, de mest
+          utsatta nod-paren i nätet, med hjälp av en algoritm som heter MINCUT-MAXFLOW.
+        </p>
+        <p>
+          En prioritet genom projektet har varit att utforma allt så att man ska kunna byta ut och importera data från
+          andra nät eller tidsintervall – så länge RAW-datan följer Google's GTFS-standard.
         </p>
       </div>
       <div className='case-image'>
@@ -81,13 +85,12 @@ const CaseSpecificAnomali = () => {
       </div>
       <div className='case-p'>
         <p>
-          Mitt i projektet tog COVID-19 över Sverige och vårt nya hem blev Google Hangouts. Vi vill verkligen tacka vår
-          ämnesgranskare (Kristiaan Pelckmans) och handledare (Jerry Löfvenhaft) för all feedback under projektets gång!
+          Mitt i projektet tog COVID-19 över Sverige och vårt nya hem blev Google Hangouts. Vi vill verkligen tacka
+          Kristiaan Pelckmans (ämnesgranskare) och Jerry Löfvenhaft (handledare) för all feedback under projektets gång!
         </p>
         <p>
-          Här nedan kan ni (snart) se vårt försök att visualisera delar av resultatet via en landningssida med
-          tillhörande Mapbox-karta vi gjort till projektet. Notera att projektet inte är helt färdigt ännu och att det
-          d.v.s. är work in progress.
+          Här nedan kan ni snart se hela vårt resultat. Projektet är alltså inte helt färdigt ännu, och innehållet på
+          länken nedan är d.v.s. work in progress.
         </p>
       </div>
       <div className='case-image'>
