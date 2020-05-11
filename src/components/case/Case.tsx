@@ -165,6 +165,19 @@ const CaseSpecificVasaloppet = () => {
   return (
     <div className='case-vasaloppet'>
       <AnimatedGallery parentCaseURL='vasaloppet' />
+      <div className='case-p'>
+        <p>
+          Som Vasaloppsdeltagare sökte man (elastiskt) med sitt för- och efternamn, och fick sen njuta av att se vilka
+          bedrifter man (enligt våra algoritmer) uppnått under sina olika race och år. Vi ville visa att alla åkare har
+          massa roliga insikter dolda i resultatdatan. Högt och lågt. Lättsamt och på allvar. Smidigt paketerat i en
+          webbapp.
+        </p>
+        <p>
+          Till exempel kunde vi bedömma hur väl man disponerade sitt race gentemot toppåkare, hur stark man var i upp-
+          och nedförsbackar, hur man står sig mot Gunde Svan, eller ifall man lyckades få till en imponerande spört i
+          mål. I referens mot alla åkare, klubb, kändisar eller din familj. <Emoji symbol='⛷📈' label='medals' />
+        </p>
+      </div>
       <div className='case-image'>
         <img
           className='case-image-img'
@@ -172,6 +185,17 @@ const CaseSpecificVasaloppet = () => {
           alt='img'
           src={require('../../assets/vasaloppet-thumbnail-project.jpg')}
         />
+      </div>
+      <div className='case-p'>
+        <p>
+          Vi ville att appen (klienten) skulle vara lätt, snabb och säker. Så alla algoritmer, beräkningar och lagring
+          av personuppgifter levererades via endpoints på vår NodeJS-backend.
+        </p>
+        <p>
+          En prioritering genom projektet var tillgodose alla Vasaloppets deltagare och ta fram tillräckligt med
+          medaljer för att säkerställa att alla får något som passar just deras nivå och mål. Vi landade på totalt 14
+          olika medaljtyper med tre nivåer vardera – brons, silver och guld <Emoji symbol='🥉🥈🥇' label='medals' />
+        </p>
       </div>
       <div className='case-image'>
         <img
@@ -181,6 +205,11 @@ const CaseSpecificVasaloppet = () => {
           src={require('../../assets/vasaloppet-techstack.jpg')}
         />
       </div>
+      <p>
+        Under huven (NodeJS) beräknades medaljerna fram med hjälp av relativa jämförelser, olika kurvanpassningningar
+        och klustring av racedatan. På någon sekund genomfördes tusentals beräkningar vars resultat sedan levererades
+        till klienten. <Emoji symbol='☁️📲' label='cloud' />
+      </p>
     </div>
   );
 };
