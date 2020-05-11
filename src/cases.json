@@ -3,9 +3,9 @@
     {
       "title": "Master Thesis",
       "company": "RISE",
-      "thumbnailImage": "anomali.jpg",
+      "thumbnailImage": "anomali-feed.svg",
       "thumbnailVideo": null,
-      "introDescription1": "Våren 2020 vi chansen att göra vårt examensarbete under 20 veckor. Ett test på hur det man lärt sig under utbildningens fem år kan användas utanför skolans väggar. “En slags trygg brygga till arbetslivet”",
+      "introDescription1": "Våren 2020 var det dags för examensarbete. Ett (20 veckor långt) projekt som testar hur utbildningens innehåll kan användas i verkligheten. “En trygg brygga till arbetslivet”",
       "introDescription2": "Jag, tillsammans med min klasskompis Axel, kom i kontakt med Sveriges statliga forskningsinstitut, RISE, och blev introducerade till Kollektivtrafikens datalab. De var intresserade av att bygga ett use-case som inom deras pågående satsning på historisk mobilitetsdata, KoDa (Public Transport Data Lab).",
       "url": "anomali"
     },

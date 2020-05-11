@@ -55,13 +55,13 @@ const CaseSpecificAnomali = () => {
       </div>
       <div className='case-p'>
         <p>
-          Vi gillade dem och började skissa på idéer. Till sist föreslog vi att bygga en webbapp som identifierar
-          svagheter i kollektivtrafiknätet. Från ett tidsavikelse-perspektiv och på en nivå som ger insikter till
-          (bl.a.) trafikplanerare och leverantörer. Med hjälp av algoritmer från Graph Mining, och en frontend gjord med
-          React och Mapbox, ska man interaktivt kunna utvärdera nätets prestanda.
+          Vi gillade dem och började skissa på idéer. Efter lite avvägning föreslog vi att bygga en webbapp som
+          identifierar svagheter i kollektivtrafiknätet. Från ett tidsavikelse-perspektiv och på en nivå som ger
+          insikter till (bl.a.) trafikplanerare och leverantörer. Med hjälp av algoritmer från Graph Mining, och en
+          frontend gjord med React och Mapbox, ska man interaktivt kunna utvärdera nätets prestanda.
         </p>
       </div>
-      <AnimatedGallery />
+      <AnimatedGallery parentCaseURL='anomali' />
       <div className='case-image'>
         <img className='case-image-img' key='vasaloppet' alt='img' src={require('../../assets/anomali_ss.png')} />
       </div>
@@ -164,6 +164,7 @@ const CaseSpecificCabonline = () => {
 const CaseSpecificVasaloppet = () => {
   return (
     <div className='case-vasaloppet'>
+      <AnimatedGallery parentCaseURL='ibm-bachelor-thesis' />
       <div className='case-image'>
         <img
           className='case-image-img'

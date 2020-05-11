@@ -4,8 +4,8 @@ interface GalleryItemProps {
   order: number;
   animationDuration: number;
   animationItemCount: number;
-  itemTitle?: string;
-  thumbnailImage?: string | null;
+  parentCaseURL: string;
+  thumbnailImage: string;
 }
 
 interface GalleryItemState {}
@@ -21,13 +21,14 @@ class AnimatedGalleryItem extends Component<GalleryItemProps, GalleryItemState> 
           }}
           className='gallery-item'
           alt='img'
-          src={require('../../casegrid/' + this.props.thumbnailImage)}
+          src={require('../../../assets/' + this.props.parentCaseURL + '/' + this.props.thumbnailImage)}
         />
       );
     }
   }
 
   render() {
+    console.log(this.props.thumbnailImage);
     return <div className='gallery-item-container'>{this._getThumbnailJSX()}</div>;
   }
 }

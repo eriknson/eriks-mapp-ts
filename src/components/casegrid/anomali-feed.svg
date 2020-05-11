@@ -1,0 +1,20 @@
+<svg width="270" height="270" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="272" height="272" id="canvas_background" fill="#faf9f7"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#046e12" stroke="#000" stroke-width="0" stroke-opacity="null" x="98.585938" y="118" id="svg_3" font-size="18" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal">numpy    np</text>
+  <text fill="#fcd800" stroke="#000" stroke-width="0" stroke-opacity="null" x="23" y="118" id="svg_8" font-size="18" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal">import       as</text>
+  <text fill="#046e12" stroke="#000" stroke-width="0" stroke-opacity="null" x="99" y="140" id="svg_10" font-size="18" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal">pandas    pd</text>
+  <text fill="#fcd800" stroke="#000" stroke-width="0" stroke-opacity="null" x="23" y="140" id="svg_11" font-size="18" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal">import        as</text>
+  <text fill="#046e12" stroke="#000" stroke-width="0" stroke-opacity="null" x="99" y="162" id="svg_12" font-size="18" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal">networkx    nx</text>
+  <text fill="#fcd800" stroke="#000" stroke-width="0" stroke-opacity="null" x="23" y="162" id="svg_13" font-size="18" font-family="'Courier New', Courier, monospace" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal">import          as</text>
+ </g>
+</svg>
