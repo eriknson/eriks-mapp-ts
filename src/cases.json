@@ -16,7 +16,7 @@
       "thumbnailVideo": null,
       "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och en av deras kunder, Vasaloppet. Vi blev jätteglada, började spåna idéer och upptäckte ganska fort att de hade massor med (oanvänd) data vi borde göra något av. Resultatdata, metadata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922.",
       "introDescription2": "Så vi utvecklade lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
-      "url": "ibm-bachelor-thesis"
+      "url": "vasaloppet"
     },
     {
       "title": "Marketing intern",

@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import AnimatedGalleryItem from './AnimatedGalleryItem';
 
-import CaseConfig from '../../../cases.json';
-
 interface AnimatedGalleryProps {
   parentCaseURL: string;
 }
 
 class AnimatedGallery extends Component<AnimatedGalleryProps> {
   cycleDuration = 60; // seconds
-  config = CaseConfig.items;
 
-  galleryItems = require('../../../assets/' + this.props.parentCaseURL + '/gallery-config.json');
+  galleryItems = require('../../../assets/' +
+    this.props.parentCaseURL +
+    '/' +
+    this.props.parentCaseURL +
+    '-gallery-config.json');
   items = this.galleryItems.items;
 
   render() {

@@ -34,7 +34,7 @@ export default class Case extends Component<CaseProps> {
         <Route path='/anomali' component={CaseSpecificAnomali} />
         <Route path='/ibm-marketing' component={CaseSpecificIBM} />
         <Route path='/jip' component={CaseSpecificCabonline} />
-        <Route path='/ibm-bachelor-thesis' component={CaseSpecificVasaloppet} />
+        <Route path='/vasaloppet' component={CaseSpecificVasaloppet} />
         <Route path='/ibm-summer-internship' component={CaseSpecificMetro} />
         <Route path='/vex' component={CaseSpecificVEX} />
       </div>
@@ -164,7 +164,7 @@ const CaseSpecificCabonline = () => {
 const CaseSpecificVasaloppet = () => {
   return (
     <div className='case-vasaloppet'>
-      <AnimatedGallery parentCaseURL='ibm-bachelor-thesis' />
+      <AnimatedGallery parentCaseURL='vasaloppet' />
       <div className='case-image'>
         <img
           className='case-image-img'
