@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "title": "Master Thesis",
-      "company": "RISE",
-      "thumbnailImage": "anomali-feed.svg",
+      "title": "Go with the flow",
+      "company": "KoDa",
+      "thumbnailImage": "gwtf-thumbnail2.jpg",
       "thumbnailVideo": null,
-      "introDescription1": "Våren 2020 gör jag mitt examensarbete. Ett 20 veckor långt projekt som testar hur utbildningens innehåll kan användas i verkligheten. “En trygg brygga till arbetslivet”",
-      "introDescription2": "Jag, tillsammans med min klasskompis Axel, kom i kontakt med Sveriges statliga forskningsinstitut, RISE, och blev introducerade till Kollektivtrafikens datalab. De var intresserade av att bygga ett use-case som inom deras pågående satsning på historisk mobilitetsdata, KoDa (Public Transport Data Lab).",
-      "url": "anomali"
+      "introDescription1": "Våren 2020 gjorde jag mitt examensarbete. Ett 20 veckor långt projekt som testar hur utbildningens innehåll kan användas i verkligheten. “En trygg brygga till arbetslivet”",
+      "introDescription2": "Jag, tillsammans med min klasskompis Axel, kom i kontakt med Samtrafiken och blev introducerade till KoDa (Public Transport Data Lab). De hade massa kollektivtrafikdata och undrade ifall vi ville ta fram något kul use-case som visar vad man kan göra med den.",
+      "url": "flow"
     },
     {
-      "title": "Bachelor Thesis",
+      "title": "Vasaloppet Digital Medals",
       "company": "IBM",
-      "thumbnailImage": "vasaloppet-feed.jpg",
+      "thumbnailImage": "vasaloppet-feed2.jpg",
       "thumbnailVideo": null,
       "introDescription1": "Våren 2018 fick jag och min klasskompis Gustav chansen att göra vårt kandidatarbete (15.0 hp) tillsammans med IBM och en av deras kunder, Vasaloppet. Vi blev jätteglada, började spåna idéer och upptäckte ganska fort att de hade massor med (oanvänd) data vi borde göra något av. Resultatdata, metadata, mellantider, demografi o.s.v. för hundratusentals åkare från 1922.",
       "introDescription2": "Så vi utvecklade lösningen 'Vasaloppet Digital Medals'. En webbapp (React, NodeJS) som transformerar Vasaloppets enorma databaser till personliga, digitala, medaljer baserade på statistiska insikter. Eller som det så fint kallas inom gaming – achievements.",
@@ -23,8 +23,8 @@
       "company": "IBM",
       "thumbnailImage": "ibm-feed.svg",
       "thumbnailVideo": null,
-      "introDescription1": "Mellan 2017-2019 jobbade jag 10h per vecka tillsammans med IBM:s marketing-team. Främst genom planering och produktion av olika digitala kampanjer.",
-      "introDescription2": "Här (nedan) finns några exempel på filmprojekt som jag varit med och skapat.",
+      "introDescription1": "Mellan 2017-2019 jobbade jag 10h per vecka tillsammans med IBM:s marketing-team. Planerade och producerade bl.a. 5 filmkampanjer, både in-house och tillsammans med externa byråer.",
+      "introDescription2": "Här nedan kan ni se ett projekt jag genomförde tillsammans med min kollega – och skådespelare – Raghda Hussein.",
       "url": "ibm-marketing"
     },
     {

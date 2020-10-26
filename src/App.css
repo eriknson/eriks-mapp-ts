@@ -1,3 +1,16 @@
+:root {
+  --blue: #1000e2;
+  --black: #212121;
+}
+
+.body,
+p,
+h1,
+h2,
+h3 {
+  color: var(--black);
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -27,7 +40,7 @@
 
 .App a {
   text-decoration: none;
-  color: #212121;
+  color: var(--black);
 }
 
 .App a:hover {
@@ -35,7 +48,7 @@
 }
 
 .case-thumbnail-container h4 {
-  color: #212121;
+  color: var(--black);
 }
 
 .case-thumbnail-img {
@@ -51,6 +64,20 @@
 
 .case-back-button:hover {
   opacity: 0.5;
+}
+
+.vimeo-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vimeo-iframe-container {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin-bottom: 2em;
 }
 
 .case-back-button-title {
@@ -190,7 +217,7 @@
   }
 
   .footer {
-    border-top: 0.5em solid #212121;
+    border-top: 0.5em solid var(--black);
     margin-top: 6em;
   }
 }
@@ -289,7 +316,7 @@
   }
 
   .footer {
-    border-top: 0.5em solid #212121;
+    border-top: 0.5em solid var(--black);
     margin-top: 6em;
   }
 }
@@ -389,7 +416,7 @@
   }
 
   .footer {
-    border-top: 0.5em solid #212121;
+    border-top: 0.5em solid var(--black);
     margin-top: 6em;
   }
 }
@@ -489,7 +516,7 @@
   }
 
   .footer {
-    border-top: 0.5em solid #212121;
+    border-top: 0.5em solid var(--black);
     margin-top: 6em;
   }
 }
@@ -589,7 +616,7 @@
   }
 
   .footer {
-    border-top: 0.5em solid #212121;
+    border-top: 0.5em solid var(--black);
     margin-top: 6em;
   }
 }

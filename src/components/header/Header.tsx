@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <div className='header'>
+      <div className="header">
         <h1>
           Stor svart rubrik <br />
           på vit bakgrund
@@ -12,15 +12,17 @@ class Header extends Component {
           En mapphemsida av Erik Nilsson. <br />
           Kalkylerad till "minst 16,3 miljarder impressions".
         </h2>
-        <div className='header-description'>
+        <div className="header-description">
           <p>
             Hej och välkommen. <br />
-            <strong>Jag är en civilingenjörsstudent vid Uppsala universitet.</strong>
+            <strong>
+              Jag är en civilingenjörsstudent vid Uppsala universitet.
+            </strong>
           </p>
           <p>
-            Här finns några saker jag gjort de senaste åren. Från sommarjobb, kurser i skolan eller andra sammanhang.
-            Skicka jättegärna{' '}
-            <a href='mailto:eriks@mail.se'>
+            Här finns några saker jag gjort de senaste åren. Från sommarjobb,
+            kurser i skolan samt andra sammanhang. Skicka jättegärna{' '}
+            <a href="mailto:eriks@mail.se">
               <u>ett mail</u>
             </a>{' '}
             om du undrar något. Enjoy!
