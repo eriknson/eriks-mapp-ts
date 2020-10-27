@@ -21,7 +21,7 @@ class Header extends Component {
           </p>
           <p>
             Här finns några saker jag gjort de senaste åren. Från sommarjobb,
-            kurser i skolan samt andra sammanhang. Skicka jättegärna{' '}
+            kurser i skolan och andra sammanhang. Skicka jättegärna{' '}
             <a href="mailto:eriks@mail.se">
               <u>ett mail</u>
             </a>{' '}
