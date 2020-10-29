@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "title": "Go with the flow",
+      "title": "Master Thesis",
       "company": "KoDa",
       "thumbnailImage": "gwtf-thumbnail2.jpg",
       "thumbnailVideo": null,
@@ -10,7 +10,7 @@
       "url": "flow"
     },
     {
-      "title": "Vasaloppet Digital Medals",
+      "title": "Bachelor Thesis",
       "company": "IBM",
       "thumbnailImage": "vasaloppet-feed2.jpg",
       "thumbnailVideo": null,
@@ -28,7 +28,7 @@
       "url": "ibm-marketing"
     },
     {
-      "title": "Frontend developer",
+      "title": "Summer intern",
       "company": "IBM",
       "thumbnailImage": "metrolive-feed.jpg",
       "thumbnailVideo": null,
