@@ -273,14 +273,14 @@ const CaseSpecificVEX = () => {
     <div className="case-image">
       <p>
         <strong>
-          Se slides på{' '}
+          Mer info{' '}
           <u>
             <a
-              href="https://vexapp.tech/#/0"
+              href="https://etablera.co/vex-challenge-the-norm"
               target="_blank"
               rel="noopener noreferrer"
             >
-              vexapp.tech
+              här
             </a>
           </u>
         </strong>
